@@ -1,0 +1,80 @@
+
+h5{
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0 !important;
+}
+
+
+.error{
+  font-size: 11px;
+  color: red;
+}
+
+.file-container{
+  padding: 20px;
+}
+.file-upload{
+  padding: 20px;
+  background: #fde9ff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.file-view{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  padding: 20px;
+  min-height: 311px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.file-view .no-content{
+  font-weight: 600;
+}
+
+.card-body-box{
+  border-top: solid 1px #ccc;
+  padding-left: 0;
+}
+
+.card-body-box h5{
+  padding-left: 10px;
+  text-align: left;
+}
+
+.image-box{
+  height: 245px;
+}
+
+.image-card{
+  position: relative;
+  border: none;
+  margin-bottom: 8px;
+}
+.card-item{
+  border: none;
+}
+.card-inner{
+  border: solid 1px #ccc;
+}
+.card-inner img{
+  width: 100%;
+}
+.delete-img{
+  width: 30px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  display: none;
+  cursor: pointer;
+}
+.delete-img img{
+  width: 100%;
+}
+
+.image-card:hover .delete-img{
+  display: block;
+}
+
